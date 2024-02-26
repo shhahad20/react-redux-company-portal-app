@@ -1,0 +1,121 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* /////////////////////////////////////////// */
+.company-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.company-item {
+  width: 300px;
+  margin: 20px 0;
+}
+
+.company-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the contents horizontally */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.company-avatar {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.company-details {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.company-name {
+  font-size: 20px;
+  color: #181818;
+  font-weight: bold;
+}
+
+.company-id {
+  font-size: 16px;
+  color: #333;
+}
+
+.company-description {
+  font-size: 14px;
+  color: #666;
+}
+
+/* ///////////// NAVBAR ///////////// */
+.nav-container {
+  display: flex;
+  justify-content: center; /* Center the navigation horizontally */
+  align-items: center; /* Center the navigation vertically */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Add spacing between links */
+}
+
+.nav-item {
+  font-size: 16px;
+}
+
+/* Optional: You can add styles for the links (e.g., color, text decoration, etc.) */
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  /* Add additional link styles as needed */
+}
